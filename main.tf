@@ -3,7 +3,7 @@ module "hashicat_infra" {
   prefix = "dev"
 }
 
-module "hashicat_infra_prod" {
+module "hashicat_prod" {
   source = "./hashicat-infrastructure"
   prefix = "prod"
 }
